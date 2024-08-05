@@ -5,6 +5,7 @@
 
 TEST(RedistributionTest, BasicTest)
 {
+    EXPECT_EQ(mem_alloc({0, 2, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}), 42);
     EXPECT_EQ(mem_alloc({5, 1, 10, 0, 1, 7, 13, 14, 3, 12, 8, 10, 7, 12, 0, 600}), 70);
     EXPECT_EQ(mem_alloc({53, 21, 10, 0, 1, 7, 13, 14, 3, 12, 8, 10, 7, 12, 0, 60}), 316);
     EXPECT_EQ(mem_alloc({14, 21, 10, 0, 1, 7, 0, 14, 3, 12, 8, 10, 17, 12, 0, 19}), 826);

@@ -1,5 +1,0 @@
-/home/volcano/Desktop/training_tasks/memory_reallocation/build/CMakeFiles/main.dir
-/home/volcano/Desktop/training_tasks/memory_reallocation/build/CMakeFiles/main_tests.dir
-/home/volcano/Desktop/training_tasks/memory_reallocation/build/CMakeFiles/test.dir
-/home/volcano/Desktop/training_tasks/memory_reallocation/build/CMakeFiles/edit_cache.dir
-/home/volcano/Desktop/training_tasks/memory_reallocation/build/CMakeFiles/rebuild_cache.dir
