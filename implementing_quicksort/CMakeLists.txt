@@ -11,3 +11,15 @@ add_executable(main
     ../src/main.cpp
     ../src/Quicksort.cpp)
 
+enable_testing()
+
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+
+add_executable(main_tests
+    ../tests/main_tests.cpp
+    ../src/Quicksort.cpp)
+
+target_link_libraries(main_tests ${GTEST_LIBRARIES} pthread)
+
+add_test(NAME main_tests COMMAND main_tests)
