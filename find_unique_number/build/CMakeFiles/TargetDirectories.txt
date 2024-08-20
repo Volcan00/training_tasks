@@ -1,0 +1,5 @@
+/home/volcano/Desktop/training_tasks/find_unique_number/build/CMakeFiles/main.dir
+/home/volcano/Desktop/training_tasks/find_unique_number/build/CMakeFiles/main_tests.dir
+/home/volcano/Desktop/training_tasks/find_unique_number/build/CMakeFiles/test.dir
+/home/volcano/Desktop/training_tasks/find_unique_number/build/CMakeFiles/edit_cache.dir
+/home/volcano/Desktop/training_tasks/find_unique_number/build/CMakeFiles/rebuild_cache.dir
